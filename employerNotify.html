@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employer Application Notify</title>
+</head>
+<body>
+<table>
+	<tr><td><img src="images/headerlogo.png" style='width:100%;'></td></tr>
+	<tr>
+		<td style="border: 1px solid black;">
+			<table>
+				<tr>
+					<td><a href="http://swiftintern.com/?utm_campaign=notify&utm_medium=email&utm_source=employers">Home</a> |</td>
+					<td><a href="http://swiftintern.com/employer?utm_campaign=notify&utm_medium=email&utm_source=employers">Control Panel</a> |</td>
+					<td><a href="http://swiftintern.com/employer/opportunities?utm_campaign=notify&utm_medium=email&utm_source=employers">Internships</a> |</td>
+					<td><a href="http://swiftintern.com/blog?utm_campaign=notify&utm_medium=email&utm_source=employers">Blog</a> |</td>
+					<td><a href="https://www.facebook.com/swiftintern">Facebook</a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr><td><br></td></tr>
+	<tr>
+		<td>
+			Hi, {$employer->name}<br>
+			The Following Students Have Applied to Opportunity (Internship) yesterday which you have Posted on Swiftintern.com, You are Requested to go through their application and select or reject them within 15 days starting from today. We will notify them with Results. you can contact them also by viewing their profile.
+		</td>
+	</tr>
+	<tr><td><br></td></tr>
+	<tr>
+		<td>
+			<b>Students Application</b>
+			<hr>
+			<table>
+				<tr>
+					<td>Student</td>
+					<td>View</td>
+				</tr>
+				{$data}
+			</table>
+		</td>
+	</tr>
+	<tr><td><br></td></tr>
+	<tr>
+		<td>
+			For any help you can contact us at +91-9891048495 or reply to this email. We're on <a href="https://www.facebook.com/swiftintern">Facebook</a> and <a href="https://twitter.com/swiftintern">Twitter</a> giving you the latest tips, news & internships.
+		</td>
+	</tr>
+</table>
+</body>
+</html>
